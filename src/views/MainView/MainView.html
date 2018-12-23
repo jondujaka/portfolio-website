@@ -1,0 +1,7 @@
+
+<section class="main-view" ref="mainview" @mousemove="handleMouse">
+	<div class="projects">
+		<ProjectTitle v-for="project in projects" :title="project.title" :cursorPosition="cursorPosition"/>
+	</div>
+</section>
+
